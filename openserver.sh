@@ -22,6 +22,6 @@ EOF
 
 systemctl restart ssh
 
-useradd -m -s /bin/bash server
+useradd -m -s /bin/bash master
 
-echo "server ALL=(root) NOPASSWD: ALL" | sudo tee /etc/sudoers.d/server-nopasswd
+echo "master ALL=(root) NOPASSWD: ALL" | sudo tee /etc/sudoers.d/master-nopasswd
