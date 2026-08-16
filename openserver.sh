@@ -9,6 +9,7 @@ sudo \
 curl \
 wget \
 git \
+zip \
 unzip \
 ca-certificates \
 openssh-server
